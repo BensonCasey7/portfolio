@@ -1,0 +1,61 @@
+.custom-nav {
+  background-color: #0c0c0c;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.icon-group {
+  display: flex;
+  align-content: center;
+}
+
+.icon-group img{
+  margin: 10px;
+}
+
+.hover-group {
+  position: absolute;
+}
+
+.icon-base {
+  transition: opacity .3s;
+}
+
+.icon-base:hover {
+  opacity: 0;
+}
+
+.navbar .navbar-nav {
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.gradient {
+  height: 2px;
+  background-image: linear-gradient(to right, #FFBF00,#5ADBFF,#5ADBFF,#EF2D56);
+}
+
+.hero-image {
+  background-image: url("../images/splash.png");
+  background-color: #cccccc;
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
