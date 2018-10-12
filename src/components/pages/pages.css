@@ -3,4 +3,18 @@
   font-family: Montserrat;
   font-weight: 600;
   font-size: 60px;
+  padding: 20px;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 50px;
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 300px;
+  border-radius: 300px;
 }
