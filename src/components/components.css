@@ -12,7 +12,7 @@
 }
 
 .icon-group img{
-  margin: 10px;
+  margin: 10px 30px;
   height: 40px;
 }
 
@@ -75,4 +75,28 @@
 
 .showcase-body {
 
+}
+
+.skill-card {
+  background-color: #0c0c0c;
+  border: solid #4e4e4e 1px;
+  margin-bottom: 30px;
+}
+
+.skill-img-container {
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center center;
+  margin-top: 15px;
+}
+
+.skill-img-container img{
+  object-fit: contain;
+}
+
+.skill-card-text {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
 }
