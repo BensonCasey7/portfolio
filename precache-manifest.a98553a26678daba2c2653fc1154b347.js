@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/nodejs.f8dab57d.png"
   },
   {
-    "revision": "2d9af7d63b1be24b9edf",
-    "url": "/portfolio/static/css/main.29812306.chunk.css"
+    "revision": "f223d16d6e4cb1d8dd03",
+    "url": "/portfolio/static/css/main.de51c1f8.chunk.css"
   },
   {
-    "revision": "3e1ab9bf0de4ec460cfb",
-    "url": "/portfolio/static/js/1.3e1ab9bf.chunk.js"
+    "revision": "5fdc22eff6ea04100d98",
+    "url": "/portfolio/static/js/1.5fdc22ef.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -20,16 +20,20 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/splash.aefad542.png"
   },
   {
+    "revision": "58094da70943acdecdb0a2b76452f50f",
+    "url": "/portfolio/static/media/fly-the-w.58094da7.jpg"
+  },
+  {
+    "revision": "a262d60b050faa432cd0cebb0b609f8e",
+    "url": "/portfolio/static/media/arcade-blackjack.a262d60b.png"
+  },
+  {
     "revision": "5611d16808a1e0da5edaea6b406d64a9",
     "url": "/portfolio/static/media/logo.5611d168.png"
   },
   {
     "revision": "642b19c5d8d10f2d274a989664e06fd3",
     "url": "/portfolio/static/media/design-hover.642b19c5.png"
-  },
-  {
-    "revision": "672b746c55f0a08e374f5fc729bb26ac",
-    "url": "/portfolio/static/media/github.672b746c.png"
   },
   {
     "revision": "7384412324c769e447d3c4f86e9ff068",
@@ -68,8 +72,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/js.0cded3a3.png"
   },
   {
-    "revision": "2d9af7d63b1be24b9edf",
-    "url": "/portfolio/static/js/main.2d9af7d6.chunk.js"
+    "revision": "f223d16d6e4cb1d8dd03",
+    "url": "/portfolio/static/js/main.f223d16d.chunk.js"
   },
   {
     "revision": "7faef394c15ffa53914ee38da5d2a481",
@@ -100,12 +104,20 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/swift.a6d3fcef.png"
   },
   {
-    "revision": "ed9f8785ed2fbb291f67dda87aa9fafc",
-    "url": "/portfolio/static/media/cubs-wallpaper.ed9f8785.jpg"
+    "revision": "9e494109d1260e09eb23ffdb43e06740",
+    "url": "/portfolio/static/media/baseball-ranker.9e494109.png"
   },
   {
-    "revision": "ecdc54291e4261a3ee274df2c8379877",
-    "url": "/portfolio/static/media/pirates-wallpaper.ecdc5429.jpg"
+    "revision": "d2faa10e21b9764efb4e162c14522d57",
+    "url": "/portfolio/static/media/portfolio.d2faa10e.png"
+  },
+  {
+    "revision": "f31d9c96a83384e3ba4462cfa0da44e6",
+    "url": "/portfolio/static/media/alpha-blog.f31d9c96.png"
+  },
+  {
+    "revision": "ed9f8785ed2fbb291f67dda87aa9fafc",
+    "url": "/portfolio/static/media/cubs-wallpaper.ed9f8785.jpg"
   },
   {
     "revision": "bada520054629e1cd4a5c37d43911b91",
@@ -114,10 +126,6 @@ self.__precacheManifest = [
   {
     "revision": "4805525993bc8cbce6c64406dd4f46ce",
     "url": "/portfolio/static/media/ex-machina-poster.48055259.jpg"
-  },
-  {
-    "revision": "58094da70943acdecdb0a2b76452f50f",
-    "url": "/portfolio/static/media/fly-the-w.58094da7.jpg"
   },
   {
     "revision": "452cab3730a5f6fdbf08a3aab5d0d24b",
@@ -136,7 +144,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/profile-pic.0b1e33d5.jpg"
   },
   {
-    "revision": "0c719e401957595a663670f17b903066",
+    "revision": "0016a9421b56565e808bf0747e030286",
     "url": "/portfolio/index.html"
   }
 ];
