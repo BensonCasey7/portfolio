@@ -38,6 +38,10 @@
   width: 40px;
 }
 
+.dropdown-items {
+  position: absolute;
+}
+
 .gradient {
   height: 2px;
   background-image: linear-gradient(to right, #FFBF00,#5ADBFF,#5ADBFF,#EF2D56);
@@ -99,6 +103,63 @@
 
 .skill-card-text {
   text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.contact-card {
+  color: #EF2D56;
+  transition: opacity .3s;
+  transition: color .3s;
+}
+
+.contact-card a {
+  text-align: center;
+}
+
+.contact-card a:hover {
+  text-decoration: none;
+}
+
+.contact-hover-group {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.contact-icon-base {
+  color: #FFFFFF;
+  transition: opacity .3s;
+}
+
+.contact-hover {
+  color: #EF2D56;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.contact-icon-base:hover {
+  opacity: 0;
+}
+
+.contact-img-container {
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center center;
+  margin-top: 15px;
+}
+
+.contact-img-container img{
+  object-fit: contain;
+}
+
+.contact-card-text {
   font-size: 40px;
   font-weight: 600;
 }

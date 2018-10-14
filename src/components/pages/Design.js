@@ -15,17 +15,17 @@ import oq_logo from "../../images/oq-logo.png";
 
 const Design = () => {
   const cards = [
-    {"image": cubs, "title": "Test title", "body": "Test body"},
-    {"image": pirates, "title": "Test title", "body": "Test body"},
-    {"image": fly_the_w, "title": "Test title", "body": "Test body"},
+    {"image": fly_the_w, "title": "Fly the W", "body": "Test body"},
     {"image": ig_poster, "title": "Test title", "body": "Test body"},
-    {"image": em_poster, "title": "Test title", "body": "Test body"}
+    {"image": em_poster, "title": "Test title", "body": "Test body"},
+    {"image": cubs, "title": "Test title", "body": "Test body"},
+    {"image": pirates, "title": "Test title", "body": "Test body"}
   ];
 
   const logos = [
-    {"image": cb_logo, "title": "Test title", "body": "Test body"},
-    {"image": r_logo, "title": "Test title", "body": "Test body"},
-    {"image": oq_logo, "title": "Test title", "body": "Test body"}
+    {"image": cb_logo},
+    {"image": r_logo},
+    {"image": oq_logo}
   ];
 
   return (
@@ -37,7 +37,7 @@ const Design = () => {
       <h1 className="subtitle">Logo Design</h1>
       <div className="container-fluid showcase-row">
         <div className="row justify-content-around">
-        {logos.map(logo => <LogoCard image={logo.image} title={logo.title} body={logo.body}/>)}
+        {logos.map(logo => <LogoCard image={logo.image}/>)}
         </div>
       </div>
     </div>
