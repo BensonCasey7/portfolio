@@ -1,7 +1,7 @@
 {
-  "main.css": "/portfolio/static/css/main.de51c1f8.chunk.css",
-  "main.js": "/portfolio/static/js/main.f223d16d.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.f223d16d.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.1ddc5cb0.chunk.css",
+  "main.js": "/portfolio/static/js/main.9d693936.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.9d693936.chunk.js.map",
   "static/js/1.5fdc22ef.chunk.js": "/portfolio/static/js/1.5fdc22ef.chunk.js",
   "static/js/1.5fdc22ef.chunk.js.map": "/portfolio/static/js/1.5fdc22ef.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
@@ -38,8 +38,8 @@
   "static/media/r-logo.png": "/portfolio/static/media/r-logo.1fe75899.png",
   "static/media/oq-logo.png": "/portfolio/static/media/oq-logo.989b1e87.png",
   "static/media/profile-pic.jpg": "/portfolio/static/media/profile-pic.0b1e33d5.jpg",
-  "static/css/main.de51c1f8.chunk.css.map": "/portfolio/static/css/main.de51c1f8.chunk.css.map",
+  "static/css/main.1ddc5cb0.chunk.css.map": "/portfolio/static/css/main.1ddc5cb0.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.a98553a26678daba2c2653fc1154b347.js": "/portfolio/precache-manifest.a98553a26678daba2c2653fc1154b347.js",
+  "precache-manifest.b4d3049a17bb733d62f267a17edbc0a4.js": "/portfolio/precache-manifest.b4d3049a17bb733d62f267a17edbc0a4.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
