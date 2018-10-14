@@ -38,10 +38,6 @@
   width: 40px;
 }
 
-.dropdown-items {
-  position: absolute;
-}
-
 .gradient {
   height: 2px;
   background-image: linear-gradient(to right, #FFBF00,#5ADBFF,#5ADBFF,#EF2D56);
@@ -74,13 +70,17 @@
 .showcase-title {
   font-family: Montserrat;
   font-size: 36px;
-  /* font-style: italic; */
   font-weight: 500;
   width: 100%;
 }
 
 .showcase-body {
+  font-size: 20px;
+}
 
+.showcase-link div{
+  position: absolute;
+  bottom: 50px;
 }
 
 .skill-card {

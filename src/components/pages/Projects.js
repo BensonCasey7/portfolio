@@ -22,7 +22,7 @@ const Projects = () => {
     <div>
       <h1 className="title">Project Showcase</h1>
       <div className="card-deck">
-        {cards.map(card => <ShowcaseCard image={card.image} title={card.title} body={card.body}/>)}
+        {cards.map(card => <ShowcaseCard image={card.image} title={card.title} body={card.body} link={card.link}/>)}
       </div>
     </div>
   );

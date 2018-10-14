@@ -1,8 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./components.css"
+import "./components.css";
+import github from "../icons/github.png";
+import githubHover from "../icons/github-hover.png";
 
-const ShowcaseCard = ({image, title, body}) => {
+const ShowcaseCard = ({image, title, body, link}) => {
   return(
     <div className="container-fluid showcase-row">
       <div className="row">
@@ -16,6 +18,16 @@ const ShowcaseCard = ({image, title, body}) => {
           <div className="showcase-body">
             {body}
           </div>
+          {link && <div className="showcase-link icon-group">
+            <a href={link}>
+              <div>
+                <img src={githubHover} alt="github-hover" style={{"margin": "10px 5px"}}/>
+              </div>
+              <div className="hover-group">
+                <img src={github} alt="github" className="icon-base" style={{"margin": "10px 5px"}}/>
+              </div>
+            </a>
+          </div>}
         </div>
       </div>
     </div>
