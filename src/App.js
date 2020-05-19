@@ -5,7 +5,7 @@ import Main from './components/Main'
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div>
       <Navbar/>
       <Main/>
     </div>
