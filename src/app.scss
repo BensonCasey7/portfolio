@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat:500,600|Raleway');
+
+$body-background-color: #1C1C1C;
+$body-color: #FFFFFF;
+$body-font: Raleway;
+
+body {
+  background-color: $body-background-color;
+  color: $body-color;
+  font-family: $body-font;
+}
