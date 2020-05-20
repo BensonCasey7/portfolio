@@ -1,0 +1,21 @@
+.page {
+  width: 100%;
+  margin: auto;
+  padding: $global-padding;
+
+  @include breakpoint(medium up) {
+    width: map-get($breakpoints, medium);
+  }
+
+  @include breakpoint(large up) {
+    width: map-get($breakpoints, large);
+  }
+
+  @include breakpoint(xlarge up) {
+    width: map-get($breakpoints, xlarge);
+  }
+
+  @include breakpoint(xxlarge up) {
+    width: map-get($breakpoints, xxlarge);
+  }
+}

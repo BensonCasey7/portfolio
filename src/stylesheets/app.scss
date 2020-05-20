@@ -1,9 +1,11 @@
-@import "~foundation-sites/scss/foundation";
+@import "../../node_modules/foundation-sites/scss/foundation";
 @include foundation-xy-grid-classes;
 
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat:500,600|Raleway');
 
-@import './stylesheets/variables';
+@import 'variables';
+
+@import 'layout';
 
 body {
   background-color: $body-background-color;
