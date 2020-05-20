@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://BensonCasey7.github.io/portfolio",
   "dependencies": {
+    "foundation-sites": "^6.6.3",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
