@@ -1,0 +1,33 @@
+.navbar {
+  background-color: $white;
+  color: $black;
+  font-weight: $fw-bold;
+
+  &__container {
+    @extend .page;
+
+    padding: 0 $global-padding;
+  }
+
+  &__link-group {
+    display: flex;
+    font-size: $font-size-large;
+    justify-content: flex-end;
+  }
+
+  &__link {
+    padding: $global-padding;
+
+    &:hover {
+      background-color: $off-white;
+      cursor: pointer;
+    }
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 38px;
+    font-weight: $fw-extrabold;
+    padding: $global-padding/4;
+  }
+}

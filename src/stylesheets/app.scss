@@ -1,14 +1,23 @@
 @import "../../node_modules/foundation-sites/scss/foundation";
 @include foundation-xy-grid-classes;
 
-@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat:500,600|Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
 
 @import 'variables';
 
 @import 'layout';
+@import 'navbar';
 
 body {
   background-color: $body-background-color;
   color: $body-color;
   font-family: $body-font;
+  font-weight: $fw-medium;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
