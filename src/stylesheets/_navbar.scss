@@ -29,5 +29,31 @@
     font-size: 38px;
     font-weight: $fw-extrabold;
     padding: $global-padding/4;
+    letter-spacing: 2px;
+  }
+
+  &--transition-test {
+    max-height: 53px;
+    overflow: hidden;
+
+    .navbar__title {
+      padding-top: 50px;
+      transition: padding-top 1s;
+
+      &:hover {
+        padding-top: $global-padding/4;
+      }
+    }
+  }
+
+  &--alt-colors {
+    background-color: $dark-gray;
+    color: $flame;
+
+    .navbar__link {
+      &:hover {
+        background-color: $black;
+      }
+    }
   }
 }
