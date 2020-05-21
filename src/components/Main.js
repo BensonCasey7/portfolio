@@ -3,12 +3,16 @@ import { Switch, Route } from 'react-router-dom'
 import Home from './../pages/Home'
 import InteractiveResume from './../pages/InteractiveResume'
 
-function Main() {
+function Main(props) {
+  let { updateShowNavbarName } = props;
+
   return (
     <div className={'page'}>
       <Switch>
         <Route exact path='/' component={Home}/>
-        <Route path='/resume' component={InteractiveResume}/>
+        <Route path='/resume'>
+          <InteractiveResume updateShowNavbarName={updateShowNavbarName}/>
+        </Route>
       </Switch>
     </div>
   );

@@ -2,6 +2,10 @@
   background-color: $white;
   color: $black;
   font-weight: $fw-bold;
+  max-height: 53px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
 
   &__container {
     @extend .page;
@@ -25,35 +29,15 @@
   }
 
   &__title {
-    text-align: center;
     font-size: 38px;
     font-weight: $fw-extrabold;
     padding: $global-padding/4;
     letter-spacing: 2px;
-  }
+    text-align: center;
+    transition: padding-top .5s;
 
-  &--transition-test {
-    max-height: 53px;
-    overflow: hidden;
-
-    .navbar__title {
+    &--hidden {
       padding-top: 50px;
-      transition: padding-top 1s;
-
-      &:hover {
-        padding-top: $global-padding/4;
-      }
-    }
-  }
-
-  &--alt-colors {
-    background-color: $dark-gray;
-    color: $flame;
-
-    .navbar__link {
-      &:hover {
-        background-color: $black;
-      }
     }
   }
 }
