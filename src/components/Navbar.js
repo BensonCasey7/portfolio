@@ -1,22 +1,23 @@
-import React from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <div className={'navbar'}>
       <div className={'grid-x navbar__container'}>
-        <div className={'cell medium-4 navbar__link'}>
+        <Link to='./' className={'cell medium-4 navbar__link'}>
           LOGO
-        </div>
+        </Link>
         <div className={'cell medium-4 navbar__title'}>
           CASEY BENSON
         </div>
         <div className={'cell medium-4 navbar__link-group'}>
-          <div className={'navbar__link'}>
+          <Link to='./resume' className={'navbar__link'}>
             Interactive Resume
-          </div>
-          <div className={'navbar__link'}>
+          </Link>
+          <Link to='./' className={'navbar__link'}>
             Contact Me
-          </div>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,9 +1,15 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom'
+import Home from './../pages/Home'
+import InteractiveResume from './../pages/InteractiveResume'
 
 function Main() {
   return (
     <div className={'page'}>
-      Main
+      <Switch>
+        <Route exact path='/' component={Home}/>
+        <Route path='/resume' component={InteractiveResume}/>
+      </Switch>
     </div>
   );
 }
