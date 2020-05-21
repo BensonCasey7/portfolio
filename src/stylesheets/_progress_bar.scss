@@ -1,0 +1,14 @@
+.progress-bar {
+  border: 2px solid $flame;
+  border-radius: 3px;
+  height: 16px;
+  margin: 0 $global-margin;
+  width: 200px;
+
+  &__progress {
+    background-color: $flame;
+    height: 100%;
+    transition: width 1s;
+    width: 0;
+  }
+}

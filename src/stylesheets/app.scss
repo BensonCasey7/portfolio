@@ -8,6 +8,7 @@
 @import 'hero';
 @import 'layout';
 @import 'navbar';
+@import 'progress_bar';
 
 body {
   background-color: $body-background-color;
@@ -22,4 +23,8 @@ html {
 }
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+.flex {
+  display: flex;
 }

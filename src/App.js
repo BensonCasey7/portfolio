@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './stylesheets/app.scss';
-import Navbar from './components/Navbar'
-import Main from './components/Main'
+import Navbar from './components/shared/Navbar'
+import Main from './components/shared/Main'
 
 function App() {
   const [showNavbarName, updateShowNavbarName] = useState(false);
