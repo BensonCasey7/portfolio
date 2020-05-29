@@ -58,11 +58,9 @@ $navbar-height: 64px;
   }
 
   &__logo {
-    height: 50px;
-
-    &:hover {
-      cursor: pointer;
-    }
+    width: 50px;
+    display: block;
+    fill: $black;
   }
 
   &__logo-wrapper {
