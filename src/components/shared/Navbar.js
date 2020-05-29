@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../../images/logo_white.svg';
+import NavbarLink from './NavbarLink';
 
 function Navbar(props) {
   const { showNavbarName } = props;
@@ -23,12 +24,8 @@ function Navbar(props) {
           CASEY BENSON
         </div>
         <div className={'cell medium-4 navbar__link-group'}>
-          <Link to='./resume' className={`navbar__link ${activeLink('/resume')}`}>
-            Interactive Resume
-          </Link>
-          <Link to='./contact' className={`navbar__link ${activeLink('/contact')}`}>
-            Contact Me
-          </Link>
+          <NavbarLink path={'resume'} text={'Interactive Resume'}/>
+          <NavbarLink path={'contact'} text={'Contact Me'}/>
         </div>
       </div>
     </div>
