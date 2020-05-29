@@ -1,8 +1,10 @@
+$navbar-height: 64px;
+
 .navbar {
   background-color: $white;
   color: $black;
   font-weight: $fw-bold;
-  max-height: 53px;
+  max-height: $navbar-height;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -18,27 +20,74 @@
     display: flex;
     font-size: $font-size-large;
     justify-content: flex-end;
+    align-items: center;
+    height: $navbar-height;
   }
 
   &__link {
-    padding: $global-padding;
+    height: $navbar-height;
+    display: flex;
+    align-items: center;
+    margin: 0 $global-margin;
+    position: relative;
+
+    &:after {
+      content: '';
+      height: 0;
+      width: 100%;
+      background-color: $red;
+      position: absolute;
+      bottom: 0;
+      transition: height .2s;
+    }
 
     &:hover {
-      background-color: $off-white;
+      @extend .navbar__link--active;
+    }
+
+    &:visited, &:link, &:active {
+      color: $black;
+      text-decoration: none;
+    }
+
+    &--active {
+      &:after {
+        height: 5px;
+      }
+    }
+  }
+
+  &__logo {
+    height: 50px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__logo-wrapper {
+    display: flex;
+    align-items: center;
+    height: $navbar-height;
+
+    &:hover {
       cursor: pointer;
     }
   }
 
   &__title {
-    font-size: 38px;
+    font-size: 42px;
     font-weight: $fw-extrabold;
     padding: $global-padding/4;
     letter-spacing: 2px;
     text-align: center;
     transition: padding-top .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &--hidden {
-      padding-top: 50px;
+      padding-top: $navbar-height;
     }
   }
 }
